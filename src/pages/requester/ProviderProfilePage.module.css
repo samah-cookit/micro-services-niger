@@ -1,0 +1,110 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.avatar {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-full);
+  background: var(--color-brand-soft);
+  color: var(--color-brand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-md);
+}
+
+.ratingRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  margin-top: var(--space-1);
+  font-size: var(--font-size-sm);
+  color: var(--color-ink-secondary);
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.bio {
+  color: var(--color-ink-secondary);
+}
+
+.factList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.factList dt {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-xs);
+  color: var(--color-ink-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.factList dd {
+  margin: var(--space-1) 0 0;
+  font-weight: var(--font-weight-medium);
+}
+
+.reviewsTitle {
+  font-size: var(--font-size-md);
+  margin-bottom: var(--space-3);
+}
+
+.review {
+  padding: var(--space-4) 0;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.reviewHead {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-sm);
+}
+
+.reviewAuthor {
+  font-weight: var(--font-weight-medium);
+}
+
+.reviewStars {
+  display: inline-flex;
+  color: var(--color-warning);
+}
+
+.reviewDate {
+  margin-inline-start: auto;
+  color: var(--color-ink-tertiary);
+  font-size: var(--font-size-xs);
+}
+
+.review p {
+  color: var(--color-ink-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.stickyFooter {
+  position: sticky;
+  bottom: 0;
+  padding: var(--space-4) 0;
+  background: linear-gradient(to top, var(--color-bg) 60%, transparent);
+}

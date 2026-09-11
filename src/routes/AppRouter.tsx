@@ -3,11 +3,18 @@ import { RootLayout } from '../layouts/RootLayout';
 import { LandingPage } from '../pages/public/LandingPage';
 import { PlaceholderPage } from '../pages/PlaceholderPage';
 
-// Les routes ci-dessous reflètent le parcours complet prévu (section 33 du brief).
-// Seul "/" est aujourd'hui une vraie page ; le reste est volontairement en
-// PlaceholderPage tant que les écrans correspondants ne sont pas construits —
-// cela valide que le routing et la navigation par rôle fonctionnent avant
-// d'investir dans 30 écrans (voir méthode de production, étape 0 → 1).
+import { RequestCategoryPage } from '../pages/requester/RequestCategoryPage';
+import { RequestDetailsPage } from '../pages/requester/RequestDetailsPage';
+import { MatchesPage } from '../pages/requester/MatchesPage';
+import { ProviderProfilePage } from '../pages/requester/ProviderProfilePage';
+import { ConversationPage } from '../pages/requester/ConversationPage';
+import { ConfirmationPage } from '../pages/requester/ConfirmationPage';
+import { TrackingPage } from '../pages/requester/TrackingPage';
+import { ReviewPage } from '../pages/requester/ReviewPage';
+import { HistoryPage } from '../pages/requester/HistoryPage';
+
+// Le parcours demandeur (Étape 2) est maintenant construit de bout en bout.
+// Prestataire et admin restent en PlaceholderPage — ce sera l'Étape 3 et 4.
 const router = createBrowserRouter([
   {
     element: <RootLayout />,
@@ -15,14 +22,17 @@ const router = createBrowserRouter([
       { path: '/', element: <LandingPage /> },
       { path: '/login', element: <PlaceholderPage title="Connexion téléphone" /> },
 
-      // Demandeur
-      { path: '/request', element: <PlaceholderPage title="Rechercher un service" /> },
-      { path: '/request/new', element: <PlaceholderPage title="Nouvelle demande" /> },
-      { path: '/matches', element: <PlaceholderPage title="Résultats du matching" /> },
-      { path: '/providers/:id', element: <PlaceholderPage title="Profil prestataire" /> },
+      // Demandeur — parcours complet
+      { path: '/request', element: <RequestCategoryPage /> },
+      { path: '/request/new', element: <RequestDetailsPage /> },
+      { path: '/matches', element: <MatchesPage /> },
+      { path: '/providers/:id', element: <ProviderProfilePage /> },
+      { path: '/providers/:id/contact', element: <ConversationPage /> },
+      { path: '/request/confirm', element: <ConfirmationPage /> },
+      { path: '/tracking', element: <TrackingPage /> },
+      { path: '/review', element: <ReviewPage /> },
       { path: '/messages', element: <PlaceholderPage title="Messages" /> },
-      { path: '/tracking', element: <PlaceholderPage title="Suivi de la prestation" /> },
-      { path: '/history', element: <PlaceholderPage title="Historique" /> },
+      { path: '/history', element: <HistoryPage /> },
       { path: '/profile', element: <PlaceholderPage title="Profil" /> },
 
       // Prestataire
