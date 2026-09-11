@@ -1,0 +1,140 @@
+/*
+  Design tokens — Plateforme nigérienne de services de proximité
+  Palette ancrée dans le contexte sahélien : indigo (teinture traditionnelle
+  touarègue) comme couleur de marque, sable comme neutre, terre cuite comme
+  accent d'action. Pas de dégradé violet/bleu générique, pas de glassmorphism.
+*/
+
+:root {
+  /* --- Couleurs de base (thème clair) --- */
+  --color-bg: #F7F4EC;
+  --color-bg-subtle: #EFE9DA;
+  --color-surface: #FFFFFF;
+  --color-surface-elevated: #FFFFFF;
+
+  --color-ink: #221E18;
+  --color-ink-secondary: #6C6355;
+  --color-ink-tertiary: #948A79;
+  --color-border: #E3DBC8;
+  --color-border-strong: #C9BEA5;
+
+  --color-brand: #263A5E;        /* indigo profond */
+  --color-brand-strong: #16223A;
+  --color-brand-soft: #DCE2EC;
+  --color-brand-contrast: #FFFFFF;
+
+  --color-accent: #B85C2A;       /* terre cuite / argile */
+  --color-accent-strong: #98481F;
+  --color-accent-soft: #F3E1D3;
+
+  --color-success: #2F7A4F;
+  --color-success-soft: #DFF0E6;
+  --color-warning: #B7841A;
+  --color-warning-soft: #F5EAD3;
+  --color-danger: #B23B3B;
+  --color-danger-soft: #F6DEDE;
+  --color-info: #2E6CA4;
+  --color-info-soft: #DDEAF4;
+
+  --color-overlay: rgba(22, 20, 15, 0.5);
+  --color-focus-ring: #26507E;
+
+  /* --- Typographie --- */
+  --font-family-base: 'Manrope Variable', 'Manrope', -apple-system,
+    'Segoe UI', 'Noto Sans Arabic', 'Noto Sans', sans-serif;
+  --font-family-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.375rem;
+  --font-size-xl: 1.75rem;
+  --font-size-2xl: 2.25rem;
+  --font-size-3xl: 2.875rem;
+
+  --line-height-tight: 1.15;
+  --line-height-snug: 1.35;
+  --line-height-normal: 1.55;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 800;
+
+  /* --- Spacing (échelle 4px) --- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+
+  /* --- Radius --- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+
+  /* --- Ombres (discrètes, jamais décoratives) --- */
+  --shadow-sm: 0 1px 2px rgba(34, 30, 24, 0.08);
+  --shadow-md: 0 4px 12px rgba(34, 30, 24, 0.10);
+  --shadow-lg: 0 12px 28px rgba(34, 30, 24, 0.14);
+
+  /* --- Transitions --- */
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 320ms ease;
+
+  /* --- Breakpoints (référence, utilisés dans les media queries) --- */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+
+  /* --- Zones tactiles --- */
+  --tap-target-min: 44px;
+}
+
+[data-theme='dark'] {
+  --color-bg: #14171C;
+  --color-bg-subtle: #1A1E24;
+  --color-surface: #1C2026;
+  --color-surface-elevated: #21262E;
+
+  --color-ink: #EDE9E0;
+  --color-ink-secondary: #A6A092;
+  --color-ink-tertiary: #7A7568;
+  --color-border: #2B313A;
+  --color-border-strong: #3A4149;
+
+  --color-brand: #7C93C4;
+  --color-brand-strong: #A7B9DE;
+  --color-brand-soft: #232C3E;
+  --color-brand-contrast: #10131A;
+
+  --color-accent: #E08A54;
+  --color-accent-strong: #F0A374;
+  --color-accent-soft: #33251C;
+
+  --color-success: #5AB87F;
+  --color-success-soft: #1C2E22;
+  --color-warning: #D9AD4C;
+  --color-warning-soft: #302A18;
+  --color-danger: #E07373;
+  --color-danger-soft: #331F1F;
+  --color-info: #6DA6D9;
+  --color-info-soft: #1B2733;
+
+  --color-overlay: rgba(0, 0, 0, 0.6);
+  --color-focus-ring: #7C93C4;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.30);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.36);
+  --shadow-lg: 0 14px 32px rgba(0, 0, 0, 0.44);
+}

@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "search": "Rechercher",
+    "requests": "Demandes",
+    "jobs": "Prestations",
+    "messages": "Messages",
+    "stats": "Statistiques",
+    "profile": "Profil"
+  },
+  "landing": {
+    "eyebrowless_headline": "De quoi avez-vous besoin ?",
+    "subline": "Trouvez un plombier, un électricien, une couturière ou un tuteur près de chez vous à Niamey.",
+    "cta_requester": "Trouver quelqu'un",
+    "cta_provider": "Proposer mes services",
+    "cta_secondary": "Voir comment ça marche"
+  },
+  "role": {
+    "requester": "Je cherche un service",
+    "provider": "Je propose un service"
+  },
+  "theme": {
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système",
+    "label": "Thème"
+  },
+  "language": {
+    "label": "Langue"
+  },
+  "trust": {
+    "phone_verified": "Téléphone vérifié",
+    "profile_confirmed": "Profil confirmé",
+    "responsive": "Très réactif",
+    "reliable": "Prestataire fiable"
+  },
+  "common": {
+    "loading": "Chargement…",
+    "error_generic": "Une erreur est survenue. Réessayez.",
+    "empty_generic": "Rien à afficher pour l'instant.",
+    "demo_badge": "Données de démonstration"
+  }
+}

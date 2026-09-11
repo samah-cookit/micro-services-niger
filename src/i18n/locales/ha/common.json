@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home": "Gida",
+    "search": "Bincike",
+    "requests": "Bukatu",
+    "jobs": "Ayyuka",
+    "messages": "Saƙonni",
+    "stats": "Ƙididdiga",
+    "profile": "Bayani"
+  },
+  "landing": {
+    "eyebrowless_headline": "Me kake bukata?",
+    "subline": "Nemo mai famfo, ma'aikacin lantarki, ko malami kusa da kai a Yamai.",
+    "cta_requester": "Nemo wani",
+    "cta_provider": "Bayar da hidimarka",
+    "cta_secondary": "Duba yadda yake aiki"
+  },
+  "role": {
+    "requester": "Ina bukatar hidima",
+    "provider": "Ina bayar da hidima"
+  },
+  "theme": {
+    "light": "Haske",
+    "dark": "Duhu",
+    "system": "Tsarin na'ura",
+    "label": "Yanayin nuni"
+  },
+  "language": {
+    "label": "Harshe"
+  },
+  "trust": {
+    "phone_verified": "An tabbatar da lambar waya",
+    "profile_confirmed": "An tabbatar da bayani",
+    "responsive": "Mai saurin amsawa",
+    "reliable": "Amintaccen mai bayarwa"
+  },
+  "common": {
+    "loading": "Ana lodawa…",
+    "error_generic": "Wani kuskure ya faru. Sake gwadawa.",
+    "empty_generic": "Babu abin nunawa a yanzu.",
+    "demo_badge": "Bayanan gwaji"
+  }
+}

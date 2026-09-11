@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "requests": "Requests",
+    "jobs": "Jobs",
+    "messages": "Messages",
+    "stats": "Stats",
+    "profile": "Profile"
+  },
+  "landing": {
+    "eyebrowless_headline": "What do you need?",
+    "subline": "Find a plumber, electrician, seamstress, or tutor near you in Niamey.",
+    "cta_requester": "Find someone",
+    "cta_provider": "Offer your services",
+    "cta_secondary": "See how it works"
+  },
+  "role": {
+    "requester": "I need a service",
+    "provider": "I offer a service"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "label": "Theme"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "trust": {
+    "phone_verified": "Phone verified",
+    "profile_confirmed": "Profile confirmed",
+    "responsive": "Highly responsive",
+    "reliable": "Reliable provider"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error_generic": "Something went wrong. Please try again.",
+    "empty_generic": "Nothing to show yet.",
+    "demo_badge": "Demo data"
+  }
+}

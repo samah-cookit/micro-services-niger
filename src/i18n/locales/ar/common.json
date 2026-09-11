@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "search": "بحث",
+    "requests": "الطلبات",
+    "jobs": "الأعمال",
+    "messages": "الرسائل",
+    "stats": "الإحصائيات",
+    "profile": "الملف الشخصي"
+  },
+  "landing": {
+    "eyebrowless_headline": "ما الذي تحتاجه؟",
+    "subline": "اعثر على سباك أو كهربائي أو خياطة أو معلم بالقرب منك في نيامي.",
+    "cta_requester": "ابحث عن شخص",
+    "cta_provider": "اعرض خدماتك",
+    "cta_secondary": "شاهد كيف يعمل"
+  },
+  "role": {
+    "requester": "أحتاج إلى خدمة",
+    "provider": "أقدّم خدمة"
+  },
+  "theme": {
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام",
+    "label": "المظهر"
+  },
+  "language": {
+    "label": "اللغة"
+  },
+  "trust": {
+    "phone_verified": "رقم الهاتف موثّق",
+    "profile_confirmed": "الملف الشخصي مؤكَّد",
+    "responsive": "سريع الاستجابة",
+    "reliable": "مزوّد موثوق"
+  },
+  "common": {
+    "loading": "جارٍ التحميل…",
+    "error_generic": "حدث خطأ ما. حاول مرة أخرى.",
+    "empty_generic": "لا يوجد شيء لعرضه بعد.",
+    "demo_badge": "بيانات تجريبية"
+  }
+}
