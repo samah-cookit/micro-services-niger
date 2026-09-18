@@ -1,0 +1,73 @@
+.provider-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f5f6f8;
+  padding: 24px;
+}
+
+.provider-home__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 360px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.provider-home__photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  background-color: #e2e5ea;
+}
+
+.provider-home__name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 24px 0;
+}
+
+.provider-home__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.provider-home__button {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.provider-home__button--primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.provider-home__button--primary:hover {
+  background-color: #1d4ed8;
+}
+
+.provider-home__button--secondary {
+  background-color: #eef0f3;
+  color: #1a1a1a;
+}
+
+.provider-home__button--secondary:hover {
+  background-color: #e2e5ea;
+}

@@ -12,6 +12,11 @@ import { ConfirmationPage } from '../pages/requester/ConfirmationPage';
 import { TrackingPage } from '../pages/requester/TrackingPage';
 import { ReviewPage } from '../pages/requester/ReviewPage';
 import { HistoryPage } from '../pages/requester/HistoryPage';
+import ProviderPage  from '../pages/provider/ProviderPage';
+import ProviderProfileFormPage from '../pages/provider/ProviderProfileFormPage';
+import ProviderSearchPage from '../pages/provider/ProviderSearchPage';
+import ProviderMessagesPage from '../pages/provider/ProviderMessagesPage';
+import ProviderConversationPage from '../pages/provider/ProviderConversationPage';
 
 // Le parcours demandeur (Étape 2) est maintenant construit de bout en bout.
 // Prestataire et admin restent en PlaceholderPage — ce sera l'Étape 3 et 4.
@@ -36,10 +41,15 @@ const router = createBrowserRouter([
       { path: '/profile', element: <PlaceholderPage title="Profil" /> },
 
       // Prestataire
-      { path: '/provider', element: <PlaceholderPage title="Tableau de bord prestataire" /> },
+      { path: '/provider', element: <ProviderPage /> },
+      { path: '/provider/profile', element: <ProviderProfileFormPage /> },
+      { path: '/provider/search', element: <ProviderSearchPage /> },
+      { path: '/provider/messages', element: <ProviderMessagesPage /> },
+      { path: '/provider/messages/:id', element: <ProviderConversationPage /> },
       { path: '/provider/requests', element: <PlaceholderPage title="Demandes reçues" /> },
       { path: '/provider/jobs', element: <PlaceholderPage title="Prestations en cours" /> },
       { path: '/provider/stats', element: <PlaceholderPage title="Statistiques" /> },
+      
 
       // Admin
       { path: '/admin', element: <PlaceholderPage title="Tableau de bord admin" /> },

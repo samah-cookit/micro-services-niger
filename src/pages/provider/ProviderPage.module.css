@@ -1,0 +1,50 @@
+.topSection {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 24px;
+}
+
+.photoColumn {
+  flex-shrink: 0;
+}
+
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: #e2e5ea;
+  color: #4b5563;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.profession {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.bottomSection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
